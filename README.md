@@ -51,7 +51,7 @@ Usage of ./mailer_macOS_amd64:
   -port int
     	the smtp port (default 25)
   -sender string
-    	the from address (default "Test Man <test@example.com>")
+    	the from address (default "Test Person <test@example.com>")
   -ssl
     	Force use of SSL (typically on port 465)
   -subject string

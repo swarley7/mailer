@@ -119,7 +119,7 @@ func main() {
 	flag.StringVar(&password, "password", "", "the smtp password")
 	flag.StringVar(&toFile, "f", "", "csv file containing list of 'first_name,last_name,email' with header row (check example.csv)")
 	flag.StringVar(&emailTemplateFile, "t", "", "Email template file")
-	flag.StringVar(&sender, "sender", "Test Man <test@example.com>", "the from address")
+	flag.StringVar(&sender, "sender", "Test Person <test@example.com>", "the from address")
 	flag.StringVar(&subject, "subject", "Test mail", "the email subject line")
 	flag.BoolVar(&debug, "debug", false, "enable verbosity")
 	flag.StringVar(&url, "url", "", "The shonky URL to direct users to")
